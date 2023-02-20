@@ -29,3 +29,5 @@ jobs:
         
     - name: Run
       run: cd $HOME/work/telegram/telegram/TrafficBot/ && python bot.py
+      env:
+        TRAFFICBOT_TOKEN: ${{secrets.TRAFFICBOT_TOKEN}}
