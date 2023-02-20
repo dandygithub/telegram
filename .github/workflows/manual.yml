@@ -24,9 +24,9 @@ jobs:
     - name: Get python's version
       run: python --version
         
-    - name: View environment
-      run: echo "${{toJson(github)}}"
-        
+    #- name: View environment
+    #  run: echo "${{toJson(github)}}"
+
     - name: Run
       run: cd $HOME/work/telegram/telegram/TrafficBot/ && python bot.py
       env:
