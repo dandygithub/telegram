@@ -1,4 +1,4 @@
 import sys
 import os
 
-print ("Token:", os.environ.get('TRAFFICBOT_TOKEN'))
+print ("Token:", os.getenv("TRAFFICBOT_TOKEN"))
